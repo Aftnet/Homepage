@@ -1,3 +1,9 @@
 languageCode = "en-us"
 title = "Aftnet"
-baseurl = "http://www.aftnet.net"
+baseURL = "http://www.aftnet.net/"
+canonifyURLs = true
+
+[params]
+  Author = "Alberto Fustinoni"
+  Description = "Alberto Fustinoni's homepage"
+  Tagline = "Product manager & developer"
