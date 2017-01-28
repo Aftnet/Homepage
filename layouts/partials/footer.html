@@ -2,22 +2,22 @@
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-dribbble"></i></a>
+					<a href="https://github.com/albertofustinoni"><i class="fa fa-github"></i></a>
 				</div>
 				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="https://stackoverflow.com/users/story/625273"><i class="fa fa-stack-overflow"></i></a>
 				</div>
 				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="https://twitter.com/intent/follow?screen_name=aftnet"><i class="fa fa-twitter"></i></a>
 				</div>
 				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="https://www.flickr.com/photos/aftnet"><i class="fa fa-flickr"></i></a>
 				</div>
 				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="https://linkedin.com/in/albertofustinoni"><i class="fa fa-linkedin"></i></a>
 				</div>
 				<div class="col-lg-2">
-					<a href="#"><i class="fa fa-tumblr"></i></a>
+					<a href="mailto:{{ .Site.Params.Email}}"><i class="fa fa-envelope"></i></a>
 				</div>		
 			</div>
 		</div>
@@ -27,13 +27,13 @@
 		<div class="container">
 			<div class="row centered">
 				<div class="col-lg-4">
-					<p><b>WEB DESIGNER, DEVELOPER & GAME ADDICT</b></p>
+					<p><b>{{ upper .Site.Params.Tagline }}</b></p>
 				</div>			
 				<div class="col-lg-4">
-					<p>Living in the amazing London.</p>
+					<p>{{ upper .Site.Params.Location }}</p>
 				</div>
 				<div class="col-lg-4">
-					<p>hello@instant.com</p>
+					<p>{{ .Site.Params.Email }}</p>
 				</div>
 			</div>
 		</div>
