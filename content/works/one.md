@@ -2,7 +2,7 @@
 SupraTitle = "SupraLol"
 Title = "Lol"
 SubTitle = "SubLol"
-HeaderImage = ""
+HeaderImage = "/assets/img/work.jpg"
 Images = [
   "assets/img/pr01.jpg",
   "assets/img/pr02.jpg",
