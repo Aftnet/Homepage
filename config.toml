@@ -6,6 +6,7 @@ canonifyURLs = true
 [params]
   Author = "Alberto Fustinoni"
   Email = "alberto@aftnet.net"
-  Description = "Alberto Fustinoni's homepage"
-  Tagline = "Product manager & developer"
+  SiteDescription = "Alberto Fustinoni's homepage"
+  TagLine = "Hello, my name is"
+  JobDescription = "Product manager & developer"
   Location = "Living in Tokyo, Japan"
