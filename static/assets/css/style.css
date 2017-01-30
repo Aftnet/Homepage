@@ -101,15 +101,18 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
+	margin-top: -70px;
+	padding: 150px 0 0 0;
+	text-align: center;
+	width: 100%;
+}
+
+#headerwrap.bgimage {
 	background: no-repeat center top;
 	background-image: url(/assets/img/background.jpg);
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
+	padding: 190px 0 120px 0;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
-	width: 100%;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -123,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap h1 {
-	color:#ffffff;
+	color:#ea2e49;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
@@ -131,9 +134,17 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
+#headerwrap.bgimage h1 {
+	color:#ffffff;
+}
+
 #headerwrap h4 {
 	font-weight: 400;
-	color: #ffffff
+	color: #ea2e49
+}
+
+#headerwrap.bgimage h4 {
+	color:#ffffff;
 }
 
 #social {
@@ -160,27 +171,6 @@ h1, h2, h3, h4, h5, h6 {
 #footerwrap p {
 	color: #f2f2f2;
 	margin-left: 10px;
-}
-
-#aboutwrap {	
-	background: url(../img/about.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 550px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .gallery img:hover {
