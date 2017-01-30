@@ -1,5 +1,5 @@
 +++
-Date = "2016-2-4"
+Date = "2016-02-04"
 TagLine = "Windows 10 app"
 Title = "OTP Manager"
 SubTitle = "Two factor auth token generator"
