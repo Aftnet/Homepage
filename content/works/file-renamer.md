@@ -9,7 +9,7 @@ Images = [
   "assets/img/pr02.jpg",
   "assets/img/pr01.jpg"
 ]
-WinStoreLink = "https://www.microsoft.com/store/apps/9nblggh68201"
+WinStoreAppId = "9nblggh68201"
 WebLink = ""
 +++
 
