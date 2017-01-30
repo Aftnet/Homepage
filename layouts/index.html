@@ -18,7 +18,7 @@
 			<h1>My Portfolio</h1>
 			
 			{{ range where .Data.Pages "Section" "works" }}
-        		{{ .Render "cover" }}
+        		{{ .Render "thumbnail" }}
     		{{ end }}
 		</div>
 	</div>

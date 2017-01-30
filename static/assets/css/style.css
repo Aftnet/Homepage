@@ -183,14 +183,6 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-
-
-
-/* Gallery */
-.gallery {
-	margin-top: 30px;
-}
-
 .gallery img:hover {
 	opacity: 0.4;
 }
