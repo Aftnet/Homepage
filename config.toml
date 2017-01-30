@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Aftnet"
-baseURL = "http://www.aftnet.net/"
+baseURL = "https://www.aftnet.net/"
 canonifyURLs = true
 
 [params]
