@@ -3,8 +3,7 @@ Date = "2016-03-21"
 TagLine = "SupraLol"
 Title = "Lol"
 SubTitle = "SubLol"
-CoverImage = "assets/img/pr01.jpg"
-HeaderImage = "/assets/img/work.jpg"
+Thumbnail = "assets/img/pr01.jpg"
 Images = [
   "assets/img/pr01.jpg",
   "assets/img/pr02.jpg",
