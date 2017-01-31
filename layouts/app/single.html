@@ -19,7 +19,9 @@
 			</div>
 
 			<div class="col-lg-8 col-lg-offset-2">
+				{{ if isset .Params "winstoreappid" }}
 				<a href="https://www.microsoft.com/store/apps/{{ .Params.winstoreappid }}?ocid=badge"><img class="img-fluid link-badge" src="https://assets.windowsphone.com/f2f77ec7-9ba9-4850-9ebe-77e366d08adc/English_Get_it_Win_10_InvariantCulture_Default.png" alt="Get it on Windows 10" /></a>
+				{{ end }}
 			</div>
 
 			<div class="col-lg-10 col-lg-offset-1 mt">
