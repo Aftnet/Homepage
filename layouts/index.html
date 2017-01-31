@@ -17,7 +17,7 @@
 		<div class="row centered mt mb">
 			<h1>My Portfolio</h1>
 			
-			{{ range where .Data.Pages "Section" "works" }}
+			{{ range where .Data.Pages "Section" "app" }}
         		{{ .Render "thumbnail" }}
     		{{ end }}
 		</div>
