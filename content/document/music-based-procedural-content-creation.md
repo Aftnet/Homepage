@@ -1,6 +1,6 @@
 +++
-Date = "2009-07-14"
-Title = "Music based procedural content creation"
+title = "Music based procedural content creation"
+date = "2009-07-14"
 +++
 
 Source and binaries on the project's [GitHub page](https://github.com/albertofustinoni/Music-Based-Procedural-Content-Creation)
