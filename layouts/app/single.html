@@ -33,12 +33,12 @@
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						{{ range $element := first 1 .Params.images }}
-						<div class="item active">
+						<div class="item bgimage screenbg active">
 							<img src="{{ $element }}">
 						</div>
 						{{ end }}
 						{{ range $element := after 1 .Params.images }}
-						<div class="item">
+						<div class="item bgimage screenbg">
 							<img src="{{ $element }}">
 						</div>
 						{{ end }}
