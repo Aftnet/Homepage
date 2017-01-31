@@ -1,26 +1,26 @@
 {{ partial "header" . }}
 
-	<div id="headerwrap" class="bgimage headerbg">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3">
-					<h4>{{ upper .Site.Params.TagLine }}</h4>
-					<h1>{{ upper .Site.Params.Author }}</h1>
-					<h4>{{ upper .Site.Params.JobDescription }}</h4>
-				</div>
-			</div>
-	    </div>
-	</div>
-	
-	<section id="works"></section>
-	<div class="container">
-		<div class="row centered mt mb">
-			<h1>My Portfolio</h1>
-			
-			{{ range where .Data.Pages "Section" "app" }}
-        		{{ .Render "thumbnail" }}
-    		{{ end }}
-		</div>
-	</div>
-	
+<div id="headerwrap" class="bgimage headerbg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <h4>{{ upper .Site.Params.TagLine }}</h4>
+                <h1>{{ upper .Site.Params.Author }}</h1>
+                <h4>{{ upper .Site.Params.JobDescription }}</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="works"></section>
+<div class="container">
+    <div class="row centered mt mb">
+        <h1>My Portfolio</h1>
+        
+        {{ range where .Data.Pages "Section" "app" }}
+            {{ .Render "thumbnail" }}
+        {{ end }}
+    </div>
+</div>
+
 {{ partial "footer" . }}

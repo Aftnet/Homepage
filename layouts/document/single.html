@@ -1,22 +1,22 @@
 {{ partial "header" . }}
 
-	<div id="headerwrap">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3">
-					<h1>{{ upper .Title }}</h1>
-					<h4>{{ dateFormat "Jan 2, 2006" .Date }}</h4>
-				</div>
-			</div>
-	    </div>
-	</div>
+<div id="headerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <h1>{{ upper .Title }}</h1>
+                <h4>{{ dateFormat "Jan 2, 2006" .Date }}</h4>
+            </div>
+        </div>
+    </div>
+</div>
 
-	<div class="container">
-		<div class="row mt mb">
-			<div class="col-lg-8 col-lg-offset-2">
-				{{ .Content }}
-			</div>
-		</div>
-	</div>
+<div class="container">
+    <div class="row mt mb">
+        <div class="col-lg-8 col-lg-offset-2">
+            {{ .Content }}
+        </div>
+    </div>
+</div>
 
 {{ partial "footer" . }}
