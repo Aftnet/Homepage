@@ -116,9 +116,18 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+.headerbg {
+	background-image: url(/assets/img/background.jpg);
+}
+
+.appheaderbg {
+	background-image: url(/assets/img/workbg.jpg);
+}
+
 .screenbg {
 	background-image: url(/assets/img/screenbg.jpg);
 }
+
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
@@ -130,8 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 }
 
-#headerwrap.bgimage {
-	background-image: url(/assets/img/background.jpg);
+#headerwrap.bgimage {	
 	padding: 190px 0 120px 0;
 }
 
