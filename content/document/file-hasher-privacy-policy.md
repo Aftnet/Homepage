@@ -1,5 +1,5 @@
 +++
-title = "File Hasher privacy policy"
+title = "File Hasher Privacy Policy"
 date = "2017-01-31T13:12:26+09:00"
 +++
 
