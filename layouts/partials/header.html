@@ -7,13 +7,18 @@
         <meta name="description" content="{{ $.Param "SiteDescription" }}">
         <meta name="author" content="{{ $.Param "Author" }}">
 
-        <link rel="shortcut icon" href="/assets/img/logo.png">
-        <link rel="apple-touch-icon" href="/assets/img/logo.png">
+        <link rel="shortcut icon" href="{{ .Site.Params.Thumbnail }}">
+        <link rel="apple-touch-icon" href="{{ .Site.Params.Thumbnail }}">
         <meta name="theme-color" content="#EA2E49">
         
         <base href="{{ .Site.BaseURL }}">
         <title>{{ .Title }}</title>
         <link rel="canonical" href="{{ .Permalink }}">
+
+        <meta property="og:title" content="{{ .Title }}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="{{ .Permalink }}" />
+        <meta property="og:image" content="{{ absURL .Site.Params.Thumbnail }}" />
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">

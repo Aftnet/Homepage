@@ -9,5 +9,6 @@ canonifyURLs = true
   SiteDescription = "Alberto Fustinoni's homepage"
   TagLine = "Hello, my name is"
   JobDescription = "Product manager & developer"
+  Thumbnail = "/assets/img/logo.png"
   Location = "Living in Tokyo, Japan"
   GoogleAnalyticsId = "UA-22182855-1"
