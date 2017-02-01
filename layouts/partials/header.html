@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="{{ .Site.Params.SiteDescription }}">
-        <meta name="author" content="{{ .Site.Params.Author }}">
+        <meta name="description" content="{{ $.Param "SiteDescription" }}">
+        <meta name="author" content="{{ $.Param "Author" }}">
 
         <link rel="shortcut icon" href="/assets/img/logo.png">
         <link rel="apple-touch-icon" href="/assets/img/logo.png">
@@ -28,7 +28,7 @@
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', '{{ .Site.Params.GoogleAnalyticsId }}', 'auto');
+            ga('create', '{{ $.Param "GoogleAnalyticsId" }}', 'auto');
             ga('send', 'pageview');
         </script>
         {{ end }}

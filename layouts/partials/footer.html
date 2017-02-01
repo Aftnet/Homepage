@@ -17,7 +17,7 @@
                     <a href="https://linkedin.com/in/albertofustinoni"><i class="fa fa-linkedin"></i></a>
                 </div>
                 <div class="col-xs-4 col-sm-2">
-                    <a href="mailto:{{ .Site.Params.Email}}"><i class="fa fa-envelope"></i></a>
+                    <a href="mailto:{{ $.Param "Email" }}"><i class="fa fa-envelope"></i></a>
                 </div>        
             </div>
         </div>
@@ -27,13 +27,13 @@
         <div class="container">
             <div class="row centered">
                 <div class="col-md-4">
-                    <p><b>{{ upper .Site.Params.JobDescription }}</b></p>
+                    <p><b>{{ upper ($.Param "JobDescription") }}</b></p>
                 </div>            
                 <div class="col-md-4">
-                    <p>{{ upper .Site.Params.Location }}</p>
+                    <p>{{ upper ($.Param "Location") }}</p>
                 </div>
                 <div class="col-md-4">
-                    <p>{{ .Site.Params.Email }}</p>
+                    <p>{{ $.Param "Email" }}</p>
                 </div>
             </div>
         </div>
