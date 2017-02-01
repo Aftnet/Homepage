@@ -1,5 +1,5 @@
 +++
-Date = "2016-11-6"
+Date = "2016-11-06"
 TagLine = "Windows 10 app"
 Title = "File Renamer"
 SubTitle = "Batch file renamer"
