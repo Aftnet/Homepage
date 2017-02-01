@@ -10,3 +10,4 @@ canonifyURLs = true
   TagLine = "Hello, my name is"
   JobDescription = "Product manager & developer"
   Location = "Living in Tokyo, Japan"
+  GoogleAnalyticsId = "UA-22182855-1"
