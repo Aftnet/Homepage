@@ -8,7 +8,9 @@ Images = [
   "assets/img/app/tankobon/desktop01.png",
   "assets/img/app/tankobon/desktop02.png",
   "assets/img/app/tankobon/desktop03.png",
-  "assets/img/app/tankobon/desktop04.png",
+  "assets/img/app/tankobon/mobile01.png",
+  "assets/img/app/tankobon/mobile02.png",
+  "assets/img/app/tankobon/mobile03.png",
 ]
 WinStoreAppId = "9nblggh4rv63"
 WebLink = ""
