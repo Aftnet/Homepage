@@ -1,5 +1,5 @@
 +++
-Date = "2015-10-15"
+Date = "2016-11-6"
 TagLine = "Windows 10 app"
 Title = "Memodic"
 SubTitle = "Multilanguage dictionary and flashcards creator"
