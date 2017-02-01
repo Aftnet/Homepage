@@ -1,8 +1,8 @@
 +++
-Date = "2016-11-06"
+Date = "2016-12-06"
 TagLine = "Windows 10 app"
 Title = "Memodic"
-SubTitle = "Multilanguage dictionary and flashcards creator"
+SubTitle = "Dictionary and flashcards creator"
 Thumbnail = "assets/img/app/memodic/thumb.png"
 Images = [
   "assets/img/app/memodic/desktop01.png",

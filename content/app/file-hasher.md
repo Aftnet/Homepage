@@ -1,5 +1,5 @@
 +++
-Date = "2015-09-20"
+Date = "2017-01-30"
 TagLine = "Windows 10 app"
 Title = "File Hasher"
 SubTitle = "Checksum calculator"
