@@ -3,14 +3,14 @@ Date = "2015-09-20"
 TagLine = "Windows 10 app"
 Title = "File Hasher"
 SubTitle = "Checksum calculator"
-Thumbnail = "assets/img/works/file-hasher/thumb.png"
+Thumbnail = "assets/img/app/file-hasher/thumb.png"
 Images = [
-  "assets/img/works/file-hasher/desktop01.png",
-  "assets/img/works/file-hasher/desktop02.png",
-  "assets/img/works/file-hasher/desktop03.png",
-  "assets/img/works/file-hasher/mobile01.png",
-  "assets/img/works/file-hasher/mobile02.png",
-  "assets/img/works/file-hasher/mobile03.png"
+  "assets/img/app/file-hasher/desktop01.png",
+  "assets/img/app/file-hasher/desktop02.png",
+  "assets/img/app/file-hasher/desktop03.png",
+  "assets/img/app/file-hasher/mobile01.png",
+  "assets/img/app/file-hasher/mobile02.png",
+  "assets/img/app/file-hasher/mobile03.png"
 ]
 WinStoreAppId = "9nblggh6csh2"
 WebLink = ""
