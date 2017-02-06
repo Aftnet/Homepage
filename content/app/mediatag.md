@@ -12,12 +12,9 @@ Images = [
   "assets/img/app/mediatag/desktop05.png",
   "assets/img/app/mediatag/desktop06.png",
 ]
-#WinStoreAppId = "9nblggh6csh2"
+WinStoreAppId = "9p4xmlhzw8tg"
 WebLink = ""
 +++
-
-Coming soon!
-
 MediaTag is a powerful and easy-to-use tool to edit metadata of media files.
 
 It supports batch tag-editing of the most common audio and some video formats, with many ways to quickly organize large collections of files.

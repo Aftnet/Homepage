@@ -16,7 +16,6 @@ Images = [
 WinStoreAppId = "9nblggh68201"
 WebLink = ""
 +++
-
 File Renamer makes it easy to rename large number of files in in a few clicks.
 
 Have a large picture library and wished files were called something more descriptive than DSCsomething.jpg?

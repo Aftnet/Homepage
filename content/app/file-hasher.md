@@ -15,7 +15,6 @@ Images = [
 WinStoreAppId = "9nblggh6csh2"
 WebLink = ""
 +++
-
 File hasher computes the MD5, SHA1 and SHA256 hashes of a file and allows to quickly check if they match a given value.
 
 Useful to make sure the file hasn't been corrupted or tampered with.

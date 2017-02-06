@@ -16,5 +16,4 @@ Images = [
 WinStoreAppId = "9nblggh6hngn"
 WebLink = ""
 +++
-
 OTP Manager generates 2-step verification codes. Works with all services supporting the [TOTP](https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) standard
