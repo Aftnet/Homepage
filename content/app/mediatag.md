@@ -20,3 +20,5 @@ MediaTag is a powerful and easy-to-use tool to edit metadata of media files.
 It supports batch tag-editing of the most common audio and some video formats, with many ways to quickly organize large collections of files.
 
 You can rename files based on the tag information, replace characters or words in tags and filenames, convert casings, generate tags from file names or track lists and rename files based on their tags.
+
+MediaTag is based on [TagLibUWP](https://github.com/Aftnet/TagLibUWP), my open source port of TagLib to WinRT component.
