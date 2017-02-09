@@ -11,6 +11,7 @@ Images = [
   "assets/img/app/mediatag/desktop04.png",
   "assets/img/app/mediatag/desktop05.png",
   "assets/img/app/mediatag/desktop06.png",
+  "assets/img/app/mediatag/desktop07.png",
 ]
 WinStoreAppId = "9p4xmlhzw8tg"
 WebLink = ""
