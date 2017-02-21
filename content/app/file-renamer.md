@@ -14,6 +14,7 @@ Images = [
   "assets/img/app/file-renamer/mobile01.png",
   "assets/img/app/file-renamer/mobile02.png",
   "assets/img/app/file-renamer/mobile03.png",
+  "assets/img/app/file-renamer/mobile04.png",
   "assets/img/app/file-renamer/mobile05.png",
   "assets/img/app/file-renamer/mobile06.png",
 ]
