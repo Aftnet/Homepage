@@ -1,6 +1,6 @@
 +++
 title = "File Renamer Privacy Policy"
-date = "2017-02-02T21:12:44+09:00"
+date = "2017-02-21T20:50:32+09:00"
 +++
 
 File Renamer accesses only the files you select or the files contained in folders you select during its usage.
