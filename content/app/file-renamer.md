@@ -1,5 +1,5 @@
 +++
-Date = "2016-11-06"
+Date = "2017-02-21"
 TagLine = "Windows 10 app"
 Title = "File Renamer"
 SubTitle = "Batch file renamer"
@@ -8,10 +8,14 @@ Images = [
   "assets/img/app/file-renamer/desktop01.png",
   "assets/img/app/file-renamer/desktop02.png",
   "assets/img/app/file-renamer/desktop03.png",
+  "assets/img/app/file-renamer/desktop04.png",
+  "assets/img/app/file-renamer/desktop05.png",
+  "assets/img/app/file-renamer/desktop06.png",
   "assets/img/app/file-renamer/mobile01.png",
   "assets/img/app/file-renamer/mobile02.png",
   "assets/img/app/file-renamer/mobile03.png",
-  "assets/img/app/file-renamer/mobile04.png"
+  "assets/img/app/file-renamer/mobile05.png",
+  "assets/img/app/file-renamer/mobile06.png",
 ]
 WinStoreAppId = "9nblggh68201"
 WebLink = ""
