@@ -12,7 +12,7 @@ Images = [
   "assets/img/app/qrafty/mobile02.png",
   "assets/img/app/qrafty/mobile03.png"
 ]
-WinStoreAppId = ""
+WinStoreAppId = "9nlkc7mnjdx2"
 WebLink = ""
 +++
 QRafty is the ultimate QR code management application on Windows 10, integrating smartly with default system apps to handle QR codes.
