@@ -1,5 +1,5 @@
 +++
-Date = "2017-03-09"
+Date = "2017-03-10"
 TagLine = "Windows 10 app"
 Title = "QRafty"
 SubTitle = "QR code scanner and creator"
