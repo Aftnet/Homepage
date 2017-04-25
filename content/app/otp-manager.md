@@ -11,7 +11,6 @@ Images = [
   "assets/img/app/otp-manager/mobile01.png",
   "assets/img/app/otp-manager/mobile02.png",
   "assets/img/app/otp-manager/mobile03.png",
-  "assets/img/app/otp-manager/mobile04.png",
 ]
 WinStoreAppId = "9nblggh6hngn"
 WebLink = ""
