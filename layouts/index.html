@@ -16,9 +16,9 @@
 <div class="container">
     <div class="row centered mt mb">
         <h1>My Portfolio</h1>
-        
-        {{ range where .Data.Pages "Section" "app" }}
-            {{ .Render "thumbnail" }}
+
+        {{ range $elemet := after 1 (where .Site.Pages "Section" "app") }}
+        {{ $elemet.Render "thumbnail" }}
         {{ end }}
     </div>
 </div>
