@@ -1,0 +1,69 @@
+{{ partial "header" .}}
+
+<div id="headerwrap" class="bgimage headerbg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <h4>{{ upper .Params.tagline }}</h4>
+                <h1>{{ upper .Title }}</h1>
+                <h4>{{ upper .Params.subtitle }}</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row mt mb">
+        <div class="col-lg-8 col-lg-offset-2">
+            {{ .Content }}
+        </div>
+    </div>
+
+    <div class="row centered mt mb">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div id="images-carousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#images-carousel" data-slide-to="0" class="active"></li>
+                    {{ range $index, $element := after 1 .Params.images }}
+                    <li data-target="#images-carousel" data-slide-to="{{ add $index 1}}"></li>
+                    {{ end }}
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    {{ range $element := first 1 .Params.images }}
+                    <div class="item bgimage screenbg active">
+                        <img src="{{ $element }}">
+                    </div>
+                    {{ end }}
+                    {{ range $element := after 1 .Params.images }}
+                    <div class="item bgimage screenbg">
+                        <img src="{{ $element }}">
+                    </div>
+                    {{ end }}
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#images-carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#images-carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row centered mt mb">
+        <div class="col-lg-8 col-lg-offset-2">
+            {{ if isset .Params "winstoreappid" }}
+            <a href="https://www.microsoft.com/store/apps/{{ .Params.winstoreappid }}?ocid=badge"><img class="img-fluid link-badge" src="https://assets.windowsphone.com/f2f77ec7-9ba9-4850-9ebe-77e366d08adc/English_Get_it_Win_10_InvariantCulture_Default.png" alt="Get it on Windows 10" /></a>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ partial "footer" .}}

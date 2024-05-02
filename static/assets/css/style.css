@@ -1,0 +1,235 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://Alvarez.is
+ *
+ * Project Name: NYC Design
+ * Version: 1.0
+ * Date: 04-20-2014
+ * URL: 
+ */
+
+
+/* ==========================================================================
+   Base Styles, Bootstrap Modifications & Fonts Import
+   ========================================================================== */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+::-moz-selection {
+    background: #ea2e49;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #ea2e49;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.centered {
+    text-align: center
+}
+
+.mt {
+    margin-top: 80px;
+}
+
+.mb {
+    margin-bottom: 80px;
+}
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+a {
+    color: #ea2e49;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-default .navbar-brand {
+    color: #ea2e49;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ea2e49;
+    background-color: transparent;
+    border-bottom: 2px solid #ea2e49
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ea2e49;
+}
+
+.bgimage {
+    background: no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.headerbg {
+    background-image: url(/assets/img/background.jpg);
+}
+
+.screenbg {
+    background-image: url(/assets/img/screenbg.jpg);
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+    margin-top: -70px;
+    padding: 150px 0 0 0;
+    text-align: center;
+    width: 100%;
+}
+
+#headerwrap.bgimage {	
+    padding: 190px 0 120px 0;
+}
+
+#headerwrap h1 {
+    color:#ea2e49;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#headerwrap.bgimage h1 {
+    color:#ffffff;
+}
+
+#headerwrap h4 {
+    font-weight: 400;
+    color: #ea2e49
+}
+
+#headerwrap.bgimage h4 {
+    color:#ffffff;
+}
+
+#social {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f2f2f2;
+}
+
+#social i {
+    font-size: 40px;
+    color: #4a4a4a
+}
+
+#social i:hover {
+    color: #ea2e49
+}
+
+#footerwrap {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #2f2f2f;
+}
+
+#footerwrap p {
+    color: #f2f2f2;
+    margin-left: 10px;
+}
+
+img.link-badge {
+    width: 200px;
+}
+
+.gallery img:hover {
+    opacity: 0.4;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel-inner .item {
+    height: 400px;
+}
+
+.carousel-inner .item img {
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #headerwrap h1 {
+    	font-size: 80px;
+    	letter-spacing: 4px;
+    }
+    .carousel-inner .item {
+    	height: 600px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .carousel-inner .item {
+    	height: 800px;
+    }
+}

@@ -1,0 +1,14 @@
+languageCode = "en-us"
+title = "Aftnet"
+baseURL = "https://www.aftnet.net/"
+canonifyURLs = true
+
+[params]
+  Author = "Alberto Fustinoni"
+  Email = "contact@aftnet.net"
+  SiteDescription = "Alberto Fustinoni's homepage"
+  TagLine = "Hello, my name is"
+  JobDescription = "Product manager & developer"
+  Thumbnail = "/assets/img/logo.png"
+  Copyright = "© 2024 Aftnet"
+  GoogleAnalyticsId = "UA-22182855-1"
