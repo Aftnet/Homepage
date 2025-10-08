@@ -5,11 +5,10 @@ canonifyURLs = true
 
 [params]
   SiteName = "Aftnet"
-  Author = "Alberto Fustinoni"
+  Author = "Aftnet"
   Email = "contact@aftnet.net"
   SiteDescription = "Aftnet Software Development"
-  TagLine = "Hello, my name is"
-  JobDescription = "Product manager & developer"
+  TagLine = "Quality apps, custom built"
   Thumbnail = "/assets/img/logo.png"
   Copyright = "© 2024 Aftnet"
   GoogleAnalyticsId = "UA-22182855-1"
