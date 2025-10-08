@@ -10,6 +10,7 @@ canonifyURLs = true
   SiteDescription = "Aftnet Software Development"
   TagLine = "Quality apps, custom built"
   Thumbnail = "/assets/img/logo.png"
+  Card = "/assets/img/card.png"
   Copyright = "© 2024 Aftnet"
   GoogleAnalyticsId = "G-18PFWB5T7B"
 
