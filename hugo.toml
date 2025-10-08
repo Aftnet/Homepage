@@ -13,3 +13,7 @@ canonifyURLs = true
   Thumbnail = "/assets/img/logo.png"
   Copyright = "© 2024 Aftnet"
   GoogleAnalyticsId = "UA-22182855-1"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
