@@ -4,9 +4,10 @@ baseURL = "https://www.aftnet.net/"
 canonifyURLs = true
 
 [params]
+  SiteName = "Aftnet"
   Author = "Alberto Fustinoni"
   Email = "contact@aftnet.net"
-  SiteDescription = "Alberto Fustinoni's homepage"
+  SiteDescription = "Aftnet Software Development"
   TagLine = "Hello, my name is"
   JobDescription = "Product manager & developer"
   Thumbnail = "/assets/img/logo.png"
