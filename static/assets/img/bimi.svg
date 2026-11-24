@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <title>Aftnet</title>
+    <g id="Square" transform="matrix(2.00032,0,0,2.00032,19.51,10.5811)">
+        <rect x="-9.753" y="-5.29" width="199.968" height="199.968" style="fill:white;"/>
+        <g transform="matrix(1.52463,0,0,1.03671,-567.592,-62.5508)">
+            <path d="M449.825,146.855L413.101,146.855L413.101,185.432L393.427,185.432L393.427,117.922L469.499,117.922L469.499,185.432L449.825,185.432L449.825,146.855Z" style="fill:rgb(234,46,73);"/>
+        </g>
+    </g>
+</svg>
